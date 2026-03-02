@@ -88,6 +88,31 @@ where prd_end_dt IS NULL
 group by prd_end_dt
 having count(*) > 1
 
+-- TABLE 3 bronze.erp_cust_aZ12
+
+select
+cid
+from bronze.erp_cust_az12
+where cid  like 'NAS%' 
+
+-- 
+select
+cid
+from bronze.erp_cust_az12
+where cid NOT IN (select cst_key from bronze.crm_cust_info )
+
+-- checking invalid dates
+select
+bdate
+from bronze.erp_cust_az12
+where bdate > getdate()
+-- in this we observe there are some dates from future
+
+-- checking cardinality
+select distinct
+gen
+from bronze.erp_cust_az12
+-- in this column we found nulls and inconsistent
 
 
 
