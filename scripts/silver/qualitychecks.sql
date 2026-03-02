@@ -24,6 +24,27 @@ cst_firstname
 from bronze.crm_cust_info
 where cst_firstname != TRIM(cst_firstname)
 
+-- Table 4 
+
+  
+-- check data quality in table bronze.erp_loc_a101
+
+-- checking for consistency in foriegn key
+select
+cid
+from bronze.erp_loc_a101
+
+select
+*
+from silver.crm_cust_info
+
+-- we found one extra character in cid column from erp_loc_a101 so we removed it
+
+-- data standardization and consistency
+
+select distinct
+cntry
+from bronze.erp_loc_a101
 
 select
 cst_lastname
