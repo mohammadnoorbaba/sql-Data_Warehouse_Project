@@ -97,6 +97,8 @@ CTAS (SELECT INTO)
 Stored Procedures
 
 Data Warehouse Modeling
+
+
 📈 Business Insights
 
 The Gold layer enables analytical queries to generate insights such as:
