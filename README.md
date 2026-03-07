@@ -36,6 +36,7 @@ Data is modeled into Fact and Dimension tables.
 Optimized for analytics and reporting.
 
 📂 Repository Structure
+
 sql-Data_Warehouse_Project/
 │
 ├── datasets/                # Source datasets (ERP & CRM data)
