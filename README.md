@@ -75,3 +75,41 @@ sql-Data_Warehouse_Project/
 3.Create Fact and Dimension tables in the Gold layer
 
 4.Use stored procedures to automate ETL operations
+
+🧩 Key SQL Concepts Implemented
+
+This project demonstrates the use of:
+
+Joins
+
+Window Functions
+
+Common Table Expressions (CTE)
+
+Subqueries
+
+Views
+
+Temporary Tables
+
+CTAS (SELECT INTO)
+
+Stored Procedures
+
+Data Warehouse Modeling
+📈 Business Insights
+
+The Gold layer enables analytical queries to generate insights such as:
+
+Customer behavior analysis
+
+Product performance
+
+Sales trends
+
+Business KPIs
+👤 Author
+
+Mohammad Noor Baba
+GitHub:
+https://github.com/mohammadnoorbaba
