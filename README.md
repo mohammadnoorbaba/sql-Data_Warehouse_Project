@@ -37,6 +37,7 @@ Optimized for analytics and reporting.
 
 📂 Repository Structure
 
+```
 sql-Data_Warehouse_Project/
 │
 ├── datasets/                # Source datasets (ERP & CRM data)
@@ -45,16 +46,17 @@ sql-Data_Warehouse_Project/
 │   ├── data_architecture.drawio
 │   ├── data_flow.drawio
 │   ├── data_models.drawio
-│   ├── data_catalog.md
+│   └── data_catalog.md
 │
 ├── scripts/                 # SQL scripts for warehouse pipeline
 │   ├── bronze/              # Raw data ingestion scripts
 │   ├── silver/              # Data cleaning and transformation
-│   ├── gold/                # Analytical models (fact & dimension tables)
+│   └── gold/                # Analytical models (fact & dimension tables)
 │
 ├── tests/                   # Data quality and testing scripts
 │
 └── README.md                # Project documentation
+```
 
 ⚙️ Technologies Used
 
